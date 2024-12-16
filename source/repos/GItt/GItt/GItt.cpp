@@ -3,9 +3,11 @@
 using namespace std;
 int main()
 {
-	int a, b,sum=0;
+	int a, b,sum=0,avg=0;
 	cout << "Enter two numbers  ";
 	cin >> a >> b;
 	sum = a + b;
 	cout << "Sum= " << sum;
+	avg = sum / 2;
+	cout << "Average= " << avg;
 }
